@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: hsla(321, 94%, 41%, 0.92);
+  }
+  
+  .game {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background: rgba(205, 244, 64, 0.92);
+    margin: 0 25%;
+  }
+  
+  .peg {
+    width: 30px;
+    height: 300px;
+    background: rgba(221, 88, 11, 0.509);
+    position: absolute;
+    margin: 40px;
+    border-radius: 10%;
+  }
+  
+  .disk {
+    width: 80px;
+    height: 200px;
+    background: rgb(61, 35, 211);
+    margin: 10px;
+    border-radius: 5%;
+    position: absolute;
+  }
